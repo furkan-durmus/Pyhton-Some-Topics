@@ -1,4 +1,4 @@
-# 1. Create Lists
+ # 1. Create Lists
 """
 Rainbow = ['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Indigo', 'Violet']
 print(Rainbow[0])
@@ -6,6 +6,16 @@ Rainbow[0] = 'red'
 print('Print the rainbow')
 for i in range(len(Rainbow)):
     print(Rainbow[i])
+
+# Red
+# Print the rainbow
+# red
+# Orange
+# Yellow
+# Green
+# Blue
+# Indigo
+# Violet
 
 """
 
@@ -165,5 +175,9 @@ print(A) #[40, 2, 30, 4, 20, 6, 10]
 ###############
 print([int(input("Element :")) for n in range(int(input("Element Count: ")))])
 
+########
+A = [1, 2, 3, 4, 5, 6, 7]
+A[::-2] = [10, 20, 30, 40]
+print(A) #[40, 2, 30, 4, 20, 6, 10]
 
 """
